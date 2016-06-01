@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="MSC"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Version Minor="1"/>
+    <Files Count="9">
+      <Item1>
+        <Filename Value="minimalbutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalButton"/>
+      </Item1>
+      <Item2>
+        <Filename Value="drawutils.pas"/>
+        <UnitName Value="DrawUtils"/>
+      </Item2>
+      <Item3>
+        <Filename Value="minimalprogressbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalProgressBar"/>
+      </Item3>
+      <Item4>
+        <Filename Value="minimaltrackbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalTrackBar"/>
+      </Item4>
+      <Item5>
+        <Filename Value="minimalpanel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalPanel"/>
+      </Item5>
+      <Item6>
+        <Filename Value="minimalspeedbutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalSpeedButton"/>
+      </Item6>
+      <Item7>
+        <Filename Value="minimalcheckbox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalCheckbox"/>
+      </Item7>
+      <Item8>
+        <Filename Value="minimalcheckboxgroup.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MinimalCheckboxGroup"/>
+      </Item8>
+      <Item9>
+        <Filename Value="datagraph.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="datagraph"/>
+      </Item9>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Minor="4" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>
